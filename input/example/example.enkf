@@ -1,10 +1,10 @@
-NUM_ENSEMBLE_MEMBER     3
+NUM_ENSEMBLE_MEMBER     10
 ASSIMILATION_INTERVAL   72      # [HOUR]
 START_MODE              0       # 3: Using existing .calib files
                                 # 2: Perturbing near the calibrated value in .calib
                                 # [-1 -- 1]: Perturbing around 
 INFLATION_WEIGHT        0.5
-ASSIMILATION_END_TIME   2009-05-13 00:00
+ASSIMILATION_END_TIME   2009-05-22 00:00
 
 ###################
 # PARAMETER TABLE #
@@ -60,9 +60,9 @@ OBS_LOCATION_Y  4505410.76
 OBS_RADIUS      0.0
 OBS_DEPTH       0.0
 
-OBS_TYPE        skin_temperature
-OBS_FILE        t1.dat
-OBS_LOCATION_X  254448.31
-OBS_LOCATION_Y  4505380.39
-OBS_RADIUS      500.0
-OBS_DEPTH       0.0
+#OBS_TYPE        skin_temperature
+#OBS_FILE        t1.dat
+#OBS_LOCATION_X  254448.31
+#OBS_LOCATION_Y  4505380.39
+#OBS_RADIUS      500.0
+#OBS_DEPTH       0.0
