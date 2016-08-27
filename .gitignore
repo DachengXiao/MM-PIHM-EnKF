@@ -70,6 +70,7 @@ pihm
 flux-pihm
 flux-pihm-bgc
 flux-pihm-cycles
+flux-pihm-enkf
 
 # PBS scripts
 run-*
@@ -79,7 +80,5 @@ src/*~
 src/*/*~
 
 # Input, output and logs
-!input/example/
-input/
 output/
 *.log
