@@ -8,7 +8,7 @@
 #PBS -j oe
 #PBS -l nodes=31:ppn=1
 #PBS -l pmem=10gb
-#PBS -l walltime=12:00:00
+#PBS -l walltime=24:00:00
 
 #   Specify the permanent directory on the
 #   server host. Note that when the job begins
