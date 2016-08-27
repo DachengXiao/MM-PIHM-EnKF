@@ -98,7 +98,12 @@ void InitOper (pihm_struct pihm, enkf_struct ens)
             ens->obs[i].type = TSKIN_OBS;
             LandSfcTmpOper (&ens->obs[i], ens->var, pihm);
         }
-        else
+        else if (strcasecmp (ens->obs[i].name, "COSMOS") == 0)
+        {
+            ens->obs[i].type = SMA_OBS;
+            COSMOSOper (&ens->obs[i], ens->var, pihm);
+        }
+	else
         {
             printf ("ERROR: Cannot find the operator for %s!\n",
                 ens->obs[i].name);
