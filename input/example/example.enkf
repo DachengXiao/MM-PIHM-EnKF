@@ -1,10 +1,10 @@
-NUM_ENSEMBLE_MEMBER     10
+NUM_ENSEMBLE_MEMBER     30
 ASSIMILATION_INTERVAL   72      # [HOUR]
 START_MODE              1       # 3: Using existing .calib files
                                 # 2: Perturbing near the calibrated value in .calib
                                 # [-1 -- 1]: Perturbing around 
 INFLATION_WEIGHT        0.5
-ASSIMILATION_END_TIME   2009-05-22 00:00
+ASSIMILATION_END_TIME   2010-01-01 00:00
 
 ###################
 # PARAMETER TABLE #
@@ -18,8 +18,8 @@ KMACSATV        0	0	0.01	1	0.01	1	1
 DINF		0	0	0	5	0	5	0
 DROOT		0	0	0	5	0	5	0
 DMAC		0	0	0	2	0	2	0
-POROSITY	0	0	0.4	0.6	0.3	1.2	0
-ALPHA		1	1	1.3	2.3	0	2.5	0
+POROSITY	0	0	0.5	1.2	0.3	1.2	0
+ALPHA		1	1	0.5	2.5	0	2.5	0
 BETA		1	1	0.90	1.80	0.85	1.85	0
 MACVF		0	0	0	15	0	15	0
 MACHF		0	0	0	15	0	15	0
